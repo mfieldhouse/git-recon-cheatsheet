@@ -1,13 +1,16 @@
 # Git Recon Cheatsheet
 ## A cheatsheet of commands to help you investigate Git repositories
 
-**Recon = Reconnaissance**: "The act of scouting or exploring to gain information."
+### Branches 
 
-**Problem**: You've used `git clone` to copy a GitHub repository locally. Now you want to show all branches that currently exist for the project.
+You've used `git clone` to copy a GitHub repository locally. Now you want to show all branches that currently exist for the project.
 
-**Solution**: `git branch -a`
+`git branch -a`
 
-**Problem**: You want to see all commits by a particular person
+
+### Commits
+
+You want to see all commits by a particular person
 
 **Solution**: `git log --author=tom`
 
